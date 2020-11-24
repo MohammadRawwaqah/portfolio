@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dosis"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Rochester&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css" />
+    <title>My Work</title>
+  </head>
+  <body>
+    <div class="menu-wrap">
+  <input type="checkbox" class="toggler">
+  <div class="hamburger"><div></div></div>
+  <div class="menu">
+    <div>
+        <div>
+          <ul>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="work.html" class="current">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+      </div>    
+    </div>
+  </div>
+</div>
+    <!-- Header -->
+    <header id="header-inner">
+      <div class="container">
+        <nav id="main-nav">
+          <img src="img/Logo.png" alt="My Portfolio" id="logo" />
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="work.html" class="current">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Section A: Gallery -->
+    <section id="work-a" class="text-center py-3">
+      <div class="container">
+        <h2 class="section-title">My Work</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">My Recently Completed Projects</p>
+        <div class="items">
+
+          <div class="project">
+            <div class="item">
+              <div class="item-image">
+                <img src="img/items/item1.PNG" alt="" />
+              </div>
+              <div class="item-text">
+                <div class="item-text-wrap">
+                  <p class="item-text-category">Web Development</p>
+                  <h2 class="item-text-title">CMS and Shopping Cart</h2>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <p class="brief">
+                  Content Managment System and Shopping cart, it is a personal project and the idea to build this application is to employ what i learn (Front-end and Back-end) in this web application.
+              </p>
+
+              <p class="brief">                 
+                  This application is an online shopping cart aimed to provide convenience to customers and adding the feature of displaying products with the highest accuracy and largest size to allow the customer to properly preview them before purchasing.
+                  it is more than just only a display of products, but it allows the admin to add and modify all of the products, pages, pages content and delete them or arrange them as desiered, all these features are granted to the admins role.
+                  when we talk about roles, this app has three roles
+                  (Guest, Customer, Admin) </p>
+
+                  <p class="brief">
+                All operations performed on this application reach the admin via e-mail with all information related to (quantity, time, customer name ..etc).
+              </p>
+              <ul class="tags mb-4">
+                <li>ASP.NET MVC 5</li>
+                <li>ASP.NET Web API</li>
+                <li>Entity Framework</li>
+                <li>HTML5 </li>
+                <li>CSS3</li>
+                <li>Bootstrap</li>
+                <li>SQL Server</li>
+                <li>jQuery</li>
+                <li>Ajax</li>
+                <li>CKEditorJS</li>
+                <li>PayPal API</li>
+            </ul>
+              <ul class="links">
+                <a href="http://mohammadcms.somee.com/" target="_blank">
+                <li class="btn-dark">
+                  <i class="fas fa-globe"></i>                  
+                   Visit this web application 
+                </li>
+              </a>
+              <a href="https://github.com/MohammadRawwaqah/CMS-and-Shopping-Cart" target="_blank"> 
+                <li class="btn-dark">
+                  <i class="fab fa-github"></i>
+                  Source code on GitHub
+                </li>
+              </a>
+              <a class="project1" href="#!" onclick="toggle('one',this.className);">
+                <li class="btn-dark">
+                  <i class="far fa-play-circle"></i>
+                   Video showing admin roles
+                </li>
+              </a>
+                <li class="trailer t1">
+                  <video src="p1.mp4" controls="true" class="video">
+                  </video>
+                  
+                  <i class="fas fa-times-circle close p1" onclick="toggle('one',this.className);"></i>
+                  
+                </li>
+              </ul> 
+            </div>
+          </div>
+          <div class="bottom-long-line"></div>
+
+
+          <div class="project">
+            <div class="item">
+              <div class="item-image">
+                <img src="img/items/item2.PNG" alt="" />
+              </div>
+              <div class="item-text">
+                <div class="item-text-wrap">
+                  <p class="item-text-category">Web Development</p>
+                  <h2 class="item-text-title">Library Management System</h2>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <p class="brief">
+                A system for organizing the display of books and grant a customer the ability to rent and reserve those books before going to physical store.
+
+              </p>
+              <ul class="tags mb-4">
+                <li>ASP.NET MVC 5</li>
+                <li>ASP.NET Web API</li>
+                <li>Ajax</li>
+                <li>typeahead.js</li>
+                <li>Entity Framework</li>
+                <li>HTML5 </li>
+                <li>CSS3</li>
+                <li>SQL Server</li>
+                <li>jQuery</li>
+                <li>Bootstrap</li>
+            </ul>
+              <ul class="links">
+                <a href="http://libraryms.somee.com/" target="_blank">
+                <li class="btn-dark">
+                  <i class="fas fa-globe"></i>
+                   Visit this web application 
+                </li>
+              </a>
+              <a href="https://github.com/MohammadRawwaqah/Library-Management-System" target="_blank">
+                <li class="btn-dark">
+                  <i class="fab fa-github"></i>
+                   Source code on GitHub
+                </li>
+              </a>
+              <a class="project2" href="#!" onclick="toggle('two',this.className);">
+                <li class="btn-dark">
+                  <i class="far fa-play-circle"></i>
+                  <!-- I use #! in href to stop a web page from scrolling to the top when a link is clicked so we run toggle function, but we still in same position in the page. -->
+                   Video showing admin roles
+                </li>
+              </a>
+                <li class="trailer t2">
+                  <video src="p2.mp4" controls="true" class="video">
+                  </video>
+                  
+                  <i class="fas fa-times-circle close p2" onclick="toggle('two',this.className);"></i>
+                  
+                </li>
+              </ul> 
+            </div>
+          </div>
+          <div class="bottom-long-line"></div>
+
+
+          <div class="project">
+            <div class="item">
+              <div class="item-image">
+                <img src="img/items/item3.PNG" alt="" />
+              </div>
+              <div class="item-text">
+                <div class="item-text-wrap">
+                  <p class="item-text-category">Front End</p>
+                  <h2 class="item-text-title">Hotel web site</h2>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <p class="brief">
+                Hotel website using Html, css, and a little bit of JavaScript codes.               
+              </p>
+              <ul class="tags mb-4">
+                <li>Html</li>
+                <li>Css</li>
+                <li>JavaScript</li>
+             </ul>
+             <ul style="align-items: center; display: block;" class="links">
+
+              <a href="https://github.com/MohammadRawwaqah/Hotel-Website" target="_blank">
+                <li class="btn-dark">
+                  <i class="fab fa-github"></i>
+                   Source code on GitHub
+                </li>
+              </a>
+              </ul> 
+            </div>
+          </div>
+          <div class="bottom-long-line"></div>
+
+          <div class="project">
+            <div class="item">
+              <div class="item-image">
+                <img src="img/items/item4.PNG" alt="" />
+              </div>
+              <div class="item-text">
+                <div class="item-text-wrap">
+                  <p class="item-text-category">Front End</p>
+                  <h2 class="item-text-title">To Do List</h2>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <p class="brief">
+                Simple ToDo list Project, Using jQuery.
+              </p>
+              <ul class="tags mb-4">
+                <li>Html</li>
+                <li>Css</li>
+                <li>jQuery</li>
+             </ul>
+              <ul style="align-items: center; display: block;" class="links">
+
+                <a href="https://github.com/MohammadRawwaqah/ToDo-List" target="_blank">
+                <li class="btn-dark">
+                  <i class="fab fa-github"></i>
+                   Source code on GitHub
+                </li>
+              </a>
+
+              </ul> 
+            </div>
+          </div>
+          <div class="bottom-long-line"></div>
+
+          <div class="project">
+            <div class="item">
+              <div class="item-image">
+                <img src="img/items/item5.PNG" alt="" />
+              </div>
+              <div class="item-text">
+                <div class="item-text-wrap">
+                  <p class="item-text-category">Front End</p>
+                  <h2 class="item-text-title">Portfolio</h2>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <p class="brief">
+               And this portfolio as a project, This portfolio was built using HTML, CSS (SCSS), and JavaScript.
+              </p>
+              <ul class="tags mb-4">
+                <li>Html</li>
+                <li>Css</li>
+                <li>JavaScript</li>
+             </ul>
+              <ul style="align-items: center; display: block;" class="links">
+
+                <a href="https://github.com/MohammadRawwaqah/portfolio" target="_blank">
+                <li class="btn-dark">
+                  <i class="fab fa-github"></i>
+                   Source code on GitHub
+                </li>
+              </a>
+              
+              </ul> 
+            </div>
+          </div>
+        </div>  <!-- end of items -->
+
+        
+    
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+      <div class="footer-content container">
+        <p>Copyright &copy; 2020. All Rights Reserved</p>
+        <div class="social">
+          <a href="https://github.com/MohammadRawwaqah" target="_blank">
+            <i style="color: #fff;" class="fab fa-github"></i>
+          </a>         
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript">
+    // elm here represent class name that we sent with onclick() function in the top
+    //why ??? to know who run this function so browser can show video depnding on the name
+    // and close also is the same thing we must know class name to know close what.
+    function toggle(abc,elm){
+
+      if(elm=='project1' || elm=='fas fa-times-circle close p1'){
+        var trailer = document.querySelector(".t1");
+      }
+      else if(elm=='project2' || elm=='fas fa-times-circle close p2'){
+        var trailer = document.querySelector(".t2");
+      }
+      trailer.classList.toggle("active");
+      var video = document.querySelector(".video");
+      video.pause();
+      video.currentTime=0;
+
+
+
+    }
+    </script>
+      
+  </body>
+</html>
